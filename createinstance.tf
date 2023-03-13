@@ -2,6 +2,8 @@ provider "aws" {
   access_key = "AKIA4R3Y5WLQUNBALG5T"
   secret_key = "MY_SECRET"
   region     = "ca-central-1"
+  firlter {
+    name = "name"
 }
 
 resources "aws_instance" "MyFirstInstance" {
