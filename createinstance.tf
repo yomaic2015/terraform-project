@@ -4,6 +4,7 @@ provider "aws" {
   region     = "ca-central-1"
   firlter {
     name = "name"
+    name = "upward"
 }
 
 resources "aws_instance" "MyFirstInstance" {
